@@ -20,7 +20,12 @@
 }
 
 .sidebar {
-    background-color: rgb(181, 175, 230);
+    /* background-color: rgb(181, 175, 230); */
+    background: linear-gradient(45deg, #000dff, #ff00f2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 2s ease-in-out;
+    border-radius: 12px;
     position: absolute;
     /* width: 434px; */
     height: 100vh;
@@ -44,7 +49,7 @@
 }
 
 .sidebar nav li a:hover {
-    color: rgb(2, 6, 247);
+    color: rgb(255, 255, 255);
 }
 
 .sidebargo {
