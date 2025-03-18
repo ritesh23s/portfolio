@@ -271,11 +271,11 @@ section.active{
     align-items: center;
     overflow: hidden;
     /* box-shadow: 0 0 3rem black; */
-    /* transition: 1.5s ease-in-out; */
+    transition: 1.5s ease-in-out; 
 }
 
 .home-img .img-box:hover{
-    box-shadow: 0 0 3rem rgb(121, 61, 170);
+    box-shadow: 0 0 3rem black;
 }
 
 .home-img .img-box::before,
