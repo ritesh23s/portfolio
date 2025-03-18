@@ -270,8 +270,8 @@ section.active{
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    box-shadow: 0 0 3rem black;
-    transition: 1.5s ease-in-out;
+    /* box-shadow: 0 0 3rem black; */
+    /* transition: 1.5s ease-in-out; */
 }
 
 .home-img .img-box:hover{
